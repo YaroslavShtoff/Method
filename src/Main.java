@@ -14,7 +14,7 @@ public class Main {
 
         int deliveryDistance = 95;
         int deliveryDays = calculateDeliveryDays(deliveryDistance);
-        System.out.println("Потребуется дней " + deliveryDays);
+        System.out.println(" Потребуется дней " + deliveryDays);
     }
 // Задание 3
     private static int calculateDeliveryDays(int deliveryDistance) {
@@ -47,7 +47,7 @@ public class Main {
         if (productionYear==currentYear) {
             return " Обычную ";
         }else {
-            return " Lite";
+            return " Lite ";
         }
     }
 
